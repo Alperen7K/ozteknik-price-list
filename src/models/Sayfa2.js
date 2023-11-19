@@ -1,0 +1,91 @@
+export const page2 = [
+  // ÖT-101
+  {
+    headerLength: 5,
+    name: "SOYMASIZ SOKETLER / UNPEELED FERRULE FOR HOSE",
+    codeName: "ÖT / 101",
+    header: [
+      "Kodu\nCode",
+      "Ürün Adı\nProduct Name",
+      "Dış Çap\nOuter Dimeter",
+      "Boy\nSize",
+      "İç Çapı \nInner Dimeter",
+    ],
+    data: [
+      ["ÖT / 101-09", '3/16 " R1 - R2', null, null, null],
+      ["ÖT / 101-01", '1/4 " R1 - R2', 21, 27, 14],
+      ["ÖT / 101-02", '5/16 " R1 - R2', 25, 27, 17.1],
+      ["ÖT / 101-03", '3/8 " R1 - R2', 26, 28, 19.5],
+      ["ÖT / 101-04", '1/2 " R1 - R2', 30, 34, 22.8],
+      ["ÖT / 101-05", '5/8 " R1 - R2', 34, 36.5, 26.1],
+      ["ÖT / 101-06", '3/4 " R1 - R2', 38, 39, 30.2],
+      ["ÖT / 101-07", '1 " R1 - R2', 50, 45, 38.6],
+      ["ÖT / 101-08", '1 " 1/4 R1 - R2', null, null, null],
+    ],
+  },
+  // ÖT-107
+  {
+    headerLength: 2,
+    name: "VITILLO SOYMASIZ R1AT-RAT SOKET / VITILLO UNPEELED R1AT-RAT SOCKET",
+    codeName: "ÖT / 107",
+    header: ["Kodu\nCode", "İç Çapı \nInner Dimeter"],
+    data: [
+      ["ÖT / 107-01", '3/16 "'],
+      ["ÖT / 107-02", '1/4 "'],
+      ["ÖT / 107-03", '5/16 "'],
+      ["ÖT / 107-04", '3/8 "'],
+      ["ÖT / 107-05", '1/2 "'],
+      ["ÖT / 107-06", '5/8 "'],
+      ["ÖT / 107-07", '3/4 "'],
+      ["ÖT / 107-08", '1 "'],
+      ["ÖT / 107-09", '1-1 / 4 "'],
+      ["ÖT / 107-10", '1-1 / 2 "'],
+      ["ÖT / 107-11", '2 "'],
+    ],
+  },
+  // ÖT-105
+  {
+    headerLength: 5,
+    name: "BUHAR SOKETI / FERRULE FOR STEAM HOSES",
+    codeName: "ÖT / 107",
+    header: [
+      "Kodu\nCode",
+      "Ürün Adı\nProduct Name",
+      "Dış Çap\nOuter Dimeter",
+      "Boy\nSize",
+      "İç Çapı \nInner Dimeter",
+    ],
+    data: [
+      ["ÖT / 105-01", '1/2 "', 32, 40, 25],
+      ["ÖT / 105-08", '5/8 "', null, null, null],
+      ["ÖT / 105-02", '3/4 "', 38, 40, 36.5],
+      ["ÖT / 105-03", '1 "', 48, 38, 40.5],
+      ["ÖT / 105-04", '1 " 1/4', 55, 55, 47],
+      ["ÖT / 105-05", '1 " 1/2', 62, 70, null],
+      ["ÖT / 101-06", '2 "', 75, 71, null],
+    ],
+  },
+  // ÖT-103
+  {
+    headerLength: 5,
+    name: "TEFLON SOKETLER / TEFLON HOSE FERRULES",
+    codeName: "ÖT / 103",
+    header: [
+      "Kodu\nCode",
+      "Ürün Adı\nProduct Name",
+      "Dış Çap\nOuter Dimeter",
+      "Boy\nSize",
+      "İç Çapı\nInner Dimeter",
+    ],
+    data: [
+      ["ÖT / 103-01", '3/16 "', 12, 27, 9],
+      ["ÖT / 103-02", '1/4 "', 14, 30, 10.5],
+      ["ÖT / 103-03", '5/16 "', 16, 30, 12.5],
+      ["ÖT / 103-04", '3/8 "', 19, 32, 15.5],
+      ["ÖT / 103-05", '1/2 "', 24, 34, 19.5],
+      ["ÖT / 103-06", '5/8 "', 27, 37, 21],
+      ["ÖT / 103-07", '3/4 "', 30, 43, 24],
+      ["ÖT / 103-08", '1 "', 38, 46, null],
+    ],
+  },
+];
