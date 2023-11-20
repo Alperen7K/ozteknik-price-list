@@ -4,8 +4,15 @@ import { page1, page2 } from "../models";
 const PriceContext = createContext();
 
 const pages = {
-  1: page1,
-  2: page2,
+  1: {
+    Data: page1,
+    pageName: "HIDROLiK HORTUM SOKETLERI / HYDRAULIC HOSE SOCKETS",
+  },
+  2: {
+    Data: page2,
+    pageName: "HIDROLIK HORTUM SOKETLERI / HYDRAULIC HOSE SOCKETS",
+  },
+  20: [],
 };
 
 export const PriceContextProvider = ({ children }) => {
