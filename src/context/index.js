@@ -1,4 +1,4 @@
-import { createContext, useCallback, useContext, useState } from "react";
+import { createContext, useContext, useState } from "react";
 import { page1, page2 } from "../models";
 
 const PriceContext = createContext();
@@ -10,7 +10,7 @@ const pages = {
   },
   2: {
     Data: page2,
-    pageName: "HIDROLIK HORTUM SOKETLERI / HYDRAULIC HOSE SOCKETS",
+    pageName: "HIDROLiK HORTUM SOKETLERI / HYDRAULIC HOSE SOCKETS",
   },
   20: [],
 };
