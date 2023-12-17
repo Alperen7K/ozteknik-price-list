@@ -8,9 +8,20 @@ export const PriceTable = ({ Data }) => {
   let headerThClass =
     "bg-gradient-to-r from-[#1C1652]  to-[#015CA4] text-white border-2 border-solid border-black";
 
+    const findLenght = (array) => {
+      return array.length;
+    };
+
   return (
     <div className="flex flex-col items-center justify-center  p-2">
       {/* <h1 className="text-center font-bold mt-2 mb-1">{Data.name}</h1> */}
+      {Data.image && (
+        <img
+          src={Data.image}
+          className="w-[10vw] mt-[3vh]"
+          alt={Data.codeName}
+        />
+      )}
       <table className="sm:scale-[1.1] md:scale-[1.2] lg:scale-[1.3] xl:scale-[1.4] sm:my-6 md:my-12 lg:my-[72px] xl:my-[90px]">
         <thead>
           <tr className={trClass}>
@@ -18,7 +29,7 @@ export const PriceTable = ({ Data }) => {
               className={
                 "bg-red-600 text-white border-2 border-solid border-black px-2"
               }
-              colSpan={Data.headerLength}
+              colSpan={Data.header.length}
             >
               <p className={`text-center py-2 font-extrabold text-[14px]`}>
                 {Data.name}
@@ -26,7 +37,7 @@ export const PriceTable = ({ Data }) => {
             </th>
           </tr>
           <tr className={trClass}>
-            <th className={headerThClass} colSpan={Data.headerLength}>
+            <th className={headerThClass} colSpan={Data.header.length}>
               <p className={`text-center py-2 font-extrabold text-[12px]`}>
                 {Data.codeName}
               </p>

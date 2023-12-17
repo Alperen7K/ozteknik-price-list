@@ -12,7 +12,20 @@ export const Price = () => {
 
   const navigate = useNavigate();
 
+  const scrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   useEffect(() => {
+    scrollToTop();
+  }, []);
+
+  useEffect(() => {
+    scrollToTop();
+
     if (isValidPageNumber(params)) {
       setPageData(pagesData[params]);
     } else {

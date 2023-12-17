@@ -7,10 +7,10 @@ import { Outlet } from "react-router-dom";
 export const MainLayout = () => {
   return (
     <>
-      {/* <Helmet>
+      <Helmet>
         <html className="m-0 p-0" />
-        <body className="min-h-full  box-border  antialiased text-white  " />
-      </Helmet> */}
+        <body className="min-h-full  box-border    " />
+      </Helmet>
       <Outlet />
     </>
   );

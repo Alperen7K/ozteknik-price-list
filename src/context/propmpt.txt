@@ -1,0 +1,1 @@
+şimdi sana vereceğim csv verisini benim için javascript veri tipine göre  her bir satırını bir array'in içerisine string olarak eklemeni ve bu arraylerin hepsini tek bir arrayin içine eklemeni istiyorum 	
