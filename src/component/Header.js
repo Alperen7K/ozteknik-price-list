@@ -1,9 +1,9 @@
 import React from "react";
-import logo from "../assets/ozteknik-logo.png";
+import logo from "../assets/icon/ozteknik-logo.png";
 
 export const Header = ({ title }) => {
   return (
-    <div className="sticky top-0 z-50">
+    <div className=" sticky top-0 z-50">
       <div className=" w-full h-[100px] sm:h-[100px] bg-[#E3E3E3] flex items-end shadow-xl">
         <div className="flex items-end   w-full h-[60px] sm:h-[80px]">
           <div className="w-[65vw] sm:w-[75vw]">

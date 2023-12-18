@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import { Button, ConfigProvider, InputNumber, Pagination } from "antd";
-import phone from "../assets/phone.png";
-import fax from "../assets/fax.png";
-import email from "../assets/email.png";
-import web from "../assets/web.png";
+import phone from "../assets/icon/phone.png";
+import fax from "../assets/icon/fax.png";
+import email from "../assets/icon/email.png";
+import web from "../assets/icon/web.png";
 
 export const Footer = ({ params }) => {
   const [page, setPage] = useState(0);
