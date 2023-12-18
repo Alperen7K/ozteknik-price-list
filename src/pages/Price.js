@@ -3,7 +3,7 @@ import { useNavigate, useParams } from "react-router-dom";
 import { usePrice } from "../context";
 import { PriceTable } from "../component";
 import { Header, Footer } from "../component";
-import logo from "../assets/ozteknik-logo.png";
+import logo from "../assets/icon/ozteknik-logo.png";
 
 export const Price = () => {
   const [pageData, setPageData] = useState();
@@ -51,9 +51,10 @@ export const Price = () => {
     );
   }
   return (
-    <div className="w-full min-h-screen flex flex-col items-center bg-white">
+    <div className="w-full h-[100vh] flex flex-col items-center bg-white">
       <Header title={pageData.pageName} />
-      <div>
+      {/* <div className="2xl:grid grid-cols-2 gap-[50px]"> */}
+      <div className="">
         {pageData.Data.map((table) => {
           return <PriceTable Data={table} />;
         })}
